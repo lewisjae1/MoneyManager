@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:title="@string/spending"
+        android:icon="@drawable/ic_baseline_arrow_upward_24"
+        android:id="@+id/Spending"/>
+    <item android:title="@string/income"
+        android:icon="@drawable/ic_baseline_arrow_downward_24"
+        android:id="@+id/Income"/>
+    <item android:title="@string/budget"
+            android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        android:id="@+id/Budget"/>
+    <item android:title="@string/money_flow"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+        android:id="@+id/MoneyFlow"/>
 </menu>
